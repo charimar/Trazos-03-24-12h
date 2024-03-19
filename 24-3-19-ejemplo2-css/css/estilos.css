@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 80%;
+  margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #5f78a6;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+header,
+nav,
+section,
+footer {
+  background-color: white;
+}
+/*CABECERA*/
+header {
+  text-align: center;
+}
+.rrss {
+  text-align: right;
+  padding: 5px;
+  background-color: #f0f0f0;
+}
+.rrss * {
+  margin: 0;
+}
+nav {
+  text-align: right;
+  background-color: #5f78a6;
+}
+nav a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  border-right: 1px solid white;
+  margin-left: -5px;
+}
+nav a:hover {
+  background-color: white;
+  color: #5f78a6;
+}
+nav a:nth-child(1) {
+  border-left: 1px solid white;
+}
+nav a:nth-child(2) {
+  background-color: red;
+}
+
+/*CUERPO*/
+section {
+  padding: 20px;
+}
+section * {
+  margin: 10px 0;
+}
+.contenedor-50 {
+  width: 50%;
+  margin: auto;
+}
+.centrar {
+  text-align: center;
+}
+.derecha {
+  text-align: right;
+}
+.galeria img {
+  width: 33%;
+}
+iframe {
+  width: 100%;
+  height: 400px;
+}
+.capital::first-letter {
+  font-size: 50px;
+  color: red;
+}
+.principal::first-line,
+span {
+  color: red;
+  text-decoration: underline;
+}
+/*FOOTER*/
+footer {
+  text-align: center;
+  background-color: rgb(178, 175, 175);
+}
+footer .rrss {
+  text-align: center;
+  background-color: #f0f0f0;
+}
+footer h2 {
+  padding-bottom: 10px;
+}
+footer section {
+  margin-bottom: 10px;
+}
