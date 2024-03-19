@@ -1,0 +1,35 @@
+/* Selectores por etiqueta*/
+p {
+  color: red;
+}
+h2 {
+  color: red;
+  background-color: orange;
+}
+p,
+h2,
+h3 {
+  color: red;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div > span {
+  background-color: chartreuse;
+}
+/*selector por ID*/
+#titulo1 {
+  color: darkorchid;
+}
+/*selector por clase*/
+.producto {
+  width: 50%;
+}
+.fondo {
+  background-color: gray;
+}
+div.fondo {
+}

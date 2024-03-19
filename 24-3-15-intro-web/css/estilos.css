@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #f0f0f0;
+  color: gray;
+  width: 70%;
+  margin: auto;
+}
+/*comentario*/
+header {
+  background-color: white;
+  text-align: center;
+  /*border: 20px solid orangered;
+  margin: 30px;
+  padding: 80px;*/
+}
+nav {
+  background-color: orangered;
+  /*padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;*/
+
+  margin-top: 20px;
+}
+nav a {
+  color: white;
+  padding: 10px;
+  margin: 0 5px;
+  display: inline-block;
+}
+nav a:hover {
+  background-color: white;
+  color: orangered;
+}
+#foto_grande {
+  width: 100%;
+}
+.contenedor {
+  width: 70%;
+  margin: 50px auto;
+}
+/*.servicios * {
+  margin: 20px 0;
+}*/
+.servicios h2,
+.servicios img,
+.servicios p,
+.servicios div {
+  margin: 20px 0;
+}
+.servicios {
+  background-color: cadetblue;
+  padding: 20px;
+  border-radius: 5px;
+  color: black;
+}
+
+.servicios a {
+  background-color: orangered;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: inline-block;
+}
+.servicios a:hover {
+  color: orangered;
+  background-color: white;
+}
+footer {
+  background-color: orangered;
+  text-align: center;
+  padding: 10px 0;
+}
