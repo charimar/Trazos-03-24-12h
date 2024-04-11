@@ -1,0 +1,47 @@
+#horario {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+tr {
+  height: 60px;
+}
+tr:first-child {
+  background-color: rgb(51, 49, 49);
+  color: white;
+}
+tr td:first-child {
+  background-color: gray;
+}
+td,
+th {
+  border: 1px solid black;
+}
+.ed {
+  background-color: brown;
+}
+.ma {
+  background-color: cornflowerblue;
+}
+.rel {
+  background-color: chartreuse;
+}
+.soci {
+  background-color: blueviolet;
+}
+.lengua {
+  background-color: coral;
+}
+.descanso {
+  background-color: yellow;
+}
+.fisica {
+  background-color: darkseagreen;
+}
+.quimica {
+  background-color: darkgreen;
+}
+.ingles {
+  background-color: aqua;
+}

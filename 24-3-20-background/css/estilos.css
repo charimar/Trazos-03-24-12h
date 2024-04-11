@@ -1,0 +1,27 @@
+body {
+  background: url(../images/patron.jpeg),
+    linear-gradient(
+      100deg,
+      rgba(35, 23, 41, 1) 1%,
+      rgba(179, 50, 238, 1) 48%,
+      rgba(242, 6, 110, 0.3757878151260504) 100%
+    ),
+    url(../images/patron.jpeg);
+  background-repeat: no-repeat, repeat, repeat;
+}
+
+h1 {
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(0, 255, 255, 0.299);
+}
+#banner1 {
+  width: 80%;
+  margin: 50px auto;
+  background: url(../images/foto1.png);
+  padding: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed;*/
+  background-position: bottom;
+}

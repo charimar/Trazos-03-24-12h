@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khojki&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@font-face {
+  font-family: 'Hola';
+  src: url(../fonts/hello/Hello.ttf);
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'Maitree', serif;
+}
+h3 {
+  font-family: 'Truculenta', sans-serif;
+  font-weight: 700;
+}
+p {
+  font-family: 'Noto Sans Khojki', sans-serif;
+}
+h4 {
+  font-family: 'Hola', sans-serif;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="102.66667mm"
+   height="58.666664mm"
+   viewBox="0 0 102.66667 58.666664"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="225.88976"
+       y="206.48819"
+       width="252.22047"
+       height="81.763779"
+       id="rect3" />
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="34.833336"
+       y1="59.033333"
+       x2="112.2"
+       y2="58.299999"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-28.600003,-34.100001)">
+    <rect
+       style="fill:url(#linearGradient2);stroke-width:0.264583"
+       id="rect1"
+       width="100.1"
+       height="54.999996"
+       x="28.600002"
+       y="35.200001" />
+    <ellipse
+       style="fill:#000000;stroke-width:0.264583"
+       id="ellipse3"
+       cx="96.616669"
+       cy="63.433334"
+       rx="34.650002"
+       ry="29.333334" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.81630014,0,0,1.76298,-146.90753,-319.11125)"
+       id="text3"
+       style="white-space:pre;shape-inside:url(#rect3);fill:#ececec"><tspan
+         x="225.89062"
+         y="217.43625"
+         id="tspan1">Hola caracola</tspan></text>
+  </g>
+</svg>

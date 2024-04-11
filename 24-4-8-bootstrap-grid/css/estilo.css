@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: black;
+  color: white;
+}
+.azul {
+  background-color: blue;
+}
+.rosa {
+  background-color: plum;
+}
+.verde {
+  background-color: green;
+}
+.naranja {
+  background-color: orangered;
+}
+div {
+  border: 2px solid white;
+  height: 100px;
+}
