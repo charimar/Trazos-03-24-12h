@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio BEM y variables css</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <!--https://wireframe.cc/KRE2Ge-->
+    <header class="header flex alinear-items-extremos alinear-items-v">
+      <a class="header__link" href="#"><img class="header__logo" src="./images/logo.jpeg" alt="" /></a>
+      <nav class="nav">
+        <a class="nav__link nav__link--activo" href="#">Servicios</a>
+        <a class="nav__link" href="#">Empresa</a>
+        <a class="nav__link" href="#">Noticias</a>
+      </nav>
+      <button class="header__bag"><i class="bi bi-bag"></i></button>
+    </header>
+    <!--banner-->
+    <section class="banner contenedor">
+      <img class="banner__img" src="./images/banner_img_1500x700.webp" alt="" />
+      <div class="banner__contenido centar-text">
+        <p class="banner__titular">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nemo non earum illo aliquam excepturi
+          obcaecati ab maiores debitis omnis.
+        </p>
+        <a class="btn banner__btn" href="#">Más info</a>
+      </div>
+    </section>
+    <!--productos-->
+    <section class="contenedor flex wrap productos">
+      <h2 class="productos__titular col-12 centar-text">Productos</h2>
+      <div class="col-3">
+        <div class="productos__card productos__card--oferta centar-text">
+          <span>Rebajado</span>
+          <h3 class="productos__nombre">Lorem ipsum dolor sit amet</h3>
+          <img class="productos__img" src="./images/producto_600x400.jpeg" alt="" />
+          <button class="btn productos__btn">Comprar</button>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="productos__card centar-text">
+          <h3 class="productos__nombre">Lorem ipsum dolor sit amet</h3>
+          <img class="productos__img" src="./images/producto_600x400.jpeg" alt="" />
+          <button class="btn productos__btn">Comprar</button>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="productos__card centar-text">
+          <h3 class="productos__nombre">Lorem ipsum dolor sit amet</h3>
+          <img class="productos__img" src="./images/producto_600x400.jpeg" alt="" />
+          <button class="btn productos__btn">Comprar</button>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="productos__card centar-text">
+          <h3 class="productos__nombre">Lorem ipsum dolor sit amet</h3>
+          <img class="productos__img" src="./images/producto_600x400.jpeg" alt="" />
+          <button class="btn productos__btn">Comprar</button>
+        </div>
+      </div>
+    </section>
+    <!--empresa-->
+    <section class="empresa contenedor flex">
+      <div class="col-6">
+        <img class="empresa__img empresa_img--grande" src="./images/empresa_800x800.png" alt="" />
+      </div>
+      <div class="col-6 flex wrap">
+        <h2 class="col-12 empresa__titular">Sobre nosotros</h2>
+        <div class="col-6"><img class="empresa__img" src="./images/empresa_800x500_1.jpeg" alt="" /></div>
+        <div class="col-6">
+          <p class="empresa__texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nobis sit accusamus deleniti.
+          </p>
+        </div>
+        <div class="col-6">
+          <img class="empresa__img" src="./images/empresa_800x500_2.jpeg" alt="" />
+        </div>
+        <div class="col-6">
+          <p class="empresa__texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nobis sit accusamus deleniti.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--blog-->
+    <section class="contenedor flex wrap blog">
+      <h2 class="col-12 blog__titular centar-text">BLOG</h2>
+      <div class="col-4">
+        <div class="post">
+          <a href="#">
+            <div class="post__picture">
+              <img class="post__img" src="./images/blog_img_800x500.webp" alt="" />
+              <span class="post__search"><i class="bi bi-search"></i></span></div
+          ></a>
+          <a href="">
+            <p class="post__texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sit? Totam distinctio, labore magnam quo
+              numquam unde aut tempore quisquam cupiditate iste eos. Hic, officiis unde vel repellendus sequi qui.
+            </p></a
+          >
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="post">
+          <a href="#">
+            <div class="post__picture">
+              <img class="post__img" src="./images/blog_img_800x500.webp" alt="" />
+              <span class="post__search"><i class="bi bi-search"></i></span></div
+          ></a>
+          <a href="">
+            <p class="post__texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sit? Totam distinctio, labore magnam quo
+              numquam unde aut tempore quisquam cupiditate iste eos. Hic, officiis unde vel repellendus sequi qui.
+            </p></a
+          >
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="post">
+          <a href="#">
+            <div class="post__picture">
+              <img class="post__img" src="./images/blog_img_800x500.webp" alt="" />
+              <span class="post__search"><i class="bi bi-search"></i></span></div
+          ></a>
+          <a href="">
+            <p class="post__texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, sit? Totam distinctio, labore magnam quo
+              numquam unde aut tempore quisquam cupiditate iste eos. Hic, officiis unde vel repellendus sequi qui.
+            </p></a
+          >
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <section class="footer__social centar-text">
+        <a class="footer__link" href="#"><i class="bi bi-linkedin"></i></a>
+        <a class="footer__link" href="#"><i class="bi bi-instagram"></i></a>
+        <a class="footer__link" href="#"><i class="bi bi-twitter-x"></i></a>
+      </section>
+      <section class="contenedor contenedor--footer footer__contenido flex alinear-items-v">
+        <div class="col-4">
+          <p class="footer__texto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, amet. Minus beatae nostrum perferendis
+            sapiente deleniti sed.
+          </p>
+        </div>
+        <div class="col-4 centar-text">
+          <img class="footer__logo" src="./images/logo.jpeg" alt="" />
+        </div>
+        <div class="col-4">
+          <p class="footer__texto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, amet. Minus beatae nostrum perferendis
+            sapiente deleniti sed.
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
