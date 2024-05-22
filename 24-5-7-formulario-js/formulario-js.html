@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validación formulario javascript</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="js/validacion.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <h2>Formulario de contacto</h2>
+      <form action="" method="get" id="fomulario">
+        <div>
+          <label for="">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+          <p></p>
+        </div>
+        <div>
+          <label for="">Apellido</label>
+          <input type="text" name="apellido" id="apellido" />
+          <p></p>
+        </div>
+        <div>
+          <label for="">Email</label>
+          <input type="email" name="email" id="email" />
+          <p></p>
+        </div>
+        <div>
+          <label for="">Asunto</label>
+          <input type="text" name="asunto" id="asunto" />
+          <p></p>
+        </div>
+        <div>
+          <label for="">Servicios</label>
+          <select name="servicios" id="servicios">
+            <option value="">Selecciona una opción</option>
+            <option value="telefonia">Telefonía</option>
+            <option value="energia">Energía</option>
+          </select>
+          <p></p>
+        </div>
+        <div>
+          <label for="">Mensaje</label>
+          <textarea name="mensaje" id="mensaje"></textarea>
+          <p></p>
+        </div>
+        <div>
+          <input type="checkbox" name="politica" id="politica" />
+          <label for="">He leído y acepto la política de privacidad</label>
+          <p></p>
+        </div>
+        <div class="boton">
+          <input type="button" name="" id="" onclick="enviar();" value="Enviar" />
+        </div>
+      </form>
+      <p id="respuesta"></p>
+    </section>
+  </body>
+</html>
